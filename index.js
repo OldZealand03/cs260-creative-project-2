@@ -23,7 +23,7 @@ function insertQuote() {
             console.log(json);
             quote = json.quote;
             results += quote;
-            results += "\"<i> <br> - Kanye West";
+            results += "\"<i> <br><br>-Kanye West";
             document.getElementById('quote').innerHTML = results;
         });
 }

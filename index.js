@@ -6,7 +6,7 @@
  4. Configure and style the button.
  5. Make sure it looks good on a phone! (responsive design)
  6. Performance issues. Sometimes it's slow.
- 7. Maybe we add iconic pictures of Kanye to the mix?
+ 7. Maybe we add iconic pictures of Kanye to the mix? More sunsets and night skies?
 
  */
 
@@ -23,7 +23,7 @@ function insertQuote() {
             console.log(json);
             quote = json.quote;
             results += quote;
-            results += "\"<i>";
+            results += "\"<i> <br> - Kanye West";
             document.getElementById('quote').innerHTML = results;
         });
 }

@@ -14,7 +14,7 @@
 function insertQuote() {
     url = "https://api.kanye.rest/";
 
-    let results = "<br><br><br><i>\"";
+    let results = "<br><br><br><br><i>\"";
 
     fetch(url)
         .then(function (response) {
@@ -23,7 +23,7 @@ function insertQuote() {
             console.log(json);
             quote = json.quote;
             results += quote;
-            results += "\"<i> <br><br>-Kanye West";
+            results += "\"<i><br><br>-Kanye West";
             document.getElementById('quote').innerHTML = results;
         });
 }

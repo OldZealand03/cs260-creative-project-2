@@ -6,6 +6,7 @@
  4. Configure and style the button.
  5. Make sure it looks good on a phone! (responsive design)
  6. Performance issues. Sometimes it's slow.
+ 7. Maybe we add iconic pictures of Kanye to the mix?
 
  */
 
@@ -13,7 +14,7 @@
 function insertQuote() {
     url = "https://api.kanye.rest/";
 
-    let results = "<br><br><br>\"";
+    let results = "<br><br><br><i>\"";
 
     fetch(url)
         .then(function (response) {
@@ -22,7 +23,7 @@ function insertQuote() {
             console.log(json);
             quote = json.quote;
             results += quote;
-            results += "\"";
+            results += "\"<i>";
             document.getElementById('quote').innerHTML = results;
         });
 }

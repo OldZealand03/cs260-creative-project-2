@@ -68,7 +68,6 @@
     padding-top: 10%;
     padding-left: 25%;
     padding-right: 25%;
-    padding-bottom: 50%;
   }
   .quoteFont {
     font-family: 'Damion', cursive;
@@ -129,6 +128,7 @@
     .sidenav a {font-size: 18px;}
     .top {
       font-size: 35px;
+      padding-bottom: 50%;
     }
 }
 
@@ -146,6 +146,8 @@
 }
 .top {
   font-size: 35px;
+  padding-bottom: 50%;
+
 }
 .small {
   padding-left: 12%;
@@ -164,6 +166,7 @@
 }
 .top {
   font-size: 35px;
+  padding-bottom: 40%;
 }
 }
 

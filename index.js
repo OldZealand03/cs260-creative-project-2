@@ -38,7 +38,7 @@ function insertQuote() {
             console.log(json);
             quote = json.quote;
             results += quote;
-            results += "\"<i><br><br>-Kanye West<br><br>";
+            results += "\"</i><br><br>-Kanye West<br><br>";
             document.getElementById('quote').style.fontFamily = "Arial";
             document.getElementById('quote').innerHTML = results;
         });

@@ -1,10 +1,7 @@
  /* TASKS TO WORK ON
  
- 1. Formatting the bottom half. Add description and title. Make the image area larger.
- 2. Figure out a way to change the quote size and font.
- 3. Configure and style the button.
- 4. Make sure it looks good on a phone! (responsive design)
- 6. Maybe we add iconic pictures of Kanye to the mix? More sunsets and night skies?
+ Make sure it looks good on a phone! (responsive design)
+ Maybe we add iconic pictures of Kanye to the mix? More sunsets and night skies?
 
  */
 
